@@ -14,10 +14,6 @@
 app.bringToFront();
 
 origDialogs = app.displayDialogs;
-//app.displayDialogs = DialogModes.ALL;
-
-const doc = app.activeDocument;
-//	  doc.save();
 app.displayDialogs = DialogModes.NO;
 
 function getName(n){
@@ -29,7 +25,7 @@ function getName(n){
 
 // ---- Main
 if (!documents.length) {
-	
+	const doc = app.activeDocument;
 	alert('There are no documents open.', 'No Document') 
 	
 } else {
