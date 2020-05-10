@@ -1,11 +1,13 @@
 /* 
-	Script Name: Photoshop Layers Unique Name Batch Export
+	Script Name: BZ - Unique Name Generator & Batch Export
+	Version: 1.3
+	Date: 08 May 2020
 	Author: Niccolò Agnoletti
-	Website: blazardsky.space
-	Github: @noiwyr
+	Website: http://blazardsky.space
+	Github: https://github.com/blazardsky/photoshop-scripts/
 	Description: Rename the selected layer to a random unique name and exports it as a PNG to make sure you won't overwrite any layer.
 	Disclaimer: The script is distributed "as is", with no warranty expressed or implied, and no guarantee for accuracy or applicability to any purpose. 
-		    Backup your files before use. In no case can the Author be held responsible for any direct or indirect damage. Use at your own risk.
+				Backup your files before use. In no case can the Author be held responsible for any direct or indirect damage. Use at your own risk.
 */
 
 // ---- Setup
@@ -13,7 +15,7 @@
 #target photoshop
 app.bringToFront();
 
-origDialogs = app.displayDialogs;
+const origDialogs = app.displayDialogs;
 app.displayDialogs = DialogModes.NO;
 
 function getName(n){
