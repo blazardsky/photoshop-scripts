@@ -17,7 +17,14 @@ Create an action where you start the script (*File > Scripts > Browse* ... Locat
 
 
 **BASIC INFORMATIONS:**
+These scripts need a little setup before you can use 'em:
 
-**PS Layers Unique Name & Batch Export**
+**Unique Name Generator & Batch Export**
 
-This script only needs a little setup before you can use it: create a group, name it *export* and add all the layers you want to export inside it. The script will then rename all those layers with a unique sequential name an export them inside a folder with the same name of the psd file, in the same directory of the psd file.
+Setup: Create a group, name it *export* and add all the layers you want to export inside it.
+Action: The script will rename all those layers with a unique sequential name and export them inside a folder with the same name of the psd, in the same directory of that file.
+
+**Crop to Doc**
+
+Setup: create a group, name it *crop* and add all the layers you want to crop inside it. 
+Action: The script will create a layer mask for all those layers with the document size, then they will be converted to smart objects to apply the layer mask.
