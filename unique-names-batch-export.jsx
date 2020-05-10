@@ -5,7 +5,7 @@
 	Github: @noiwyr
 	Description: Rename the selected layer to a random unique name and exports it as a PNG to make sure you won't overwrite any layer.
 	Disclaimer: The script is distributed "as is", with no warranty expressed or implied, and no guarantee for accuracy or applicability to any purpose. 
-				Backup your files before use. In no case can the Author be held responsible for any direct or indirect damage. Use at your own risk.
+		    Backup your files before use. In no case can the Author be held responsible for any direct or indirect damage. Use at your own risk.
 */
 
 // ---- Setup
@@ -26,9 +26,11 @@ function getName(n){
 // ---- Main
 if (!documents.length) {
 	
-	alert('There are no documents open.', 'No Document') 
+	alert('There are no documents open.', 'No Document');
 	
 } else {
+	
+	alert('Wait until I am done.', 'Click OK');
 	
 	const doc = app.activeDocument;
 	var docName = doc.name.slice(0, doc.name.lastIndexOf('.'));
@@ -70,7 +72,7 @@ if (!documents.length) {
 		for (var k = 0; k < groupLen; k++) {
 			forExport.layers[k].visible = true;
 		}
-		alert("done");
+		alert("Done exporting.","Script finished");
 	} catch(e) {
 		if (e == "Error: No such element") {
 			alert("You were missing the group \"export\". Add all the layers you want to export in it.","Missing group");
