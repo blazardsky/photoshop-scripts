@@ -2,7 +2,7 @@
 Scripts to automate some common processes in photoshop.
 
 
-**BASIC INFORMATIONS:**
+**HOW TO INSTALL:**
 
 **Where to install scripts?**
 - On windows copy the files to:
@@ -21,7 +21,9 @@ OR:
 - Under "Application Menu Command" open "File"
 - Search for "Scripts", you should find the name of the script, then click on "add schortcut" button on the right
 
-**BASIC INFORMATIONS:**
+
+
+**USAGE INFO:**
 These scripts need a little setup before you can use 'em:
 
 **Unique Name Generator & Batch Export**
