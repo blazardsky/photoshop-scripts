@@ -1,6 +1,6 @@
 # photoshop-scripts
-Scripts to automate some common processes in photoshop.
-
+Scripts written in Adobe Extended Javascript (JSX) for Adobe Photoshop.
+Find out more about scripting in photoshop here: https://helpx.adobe.com/photoshop/using/scripting.html
 
 **HOW TO INSTALL:**
 
