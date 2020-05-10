@@ -25,11 +25,12 @@ function getName(n){
 
 // ---- Main
 if (!documents.length) {
-	const doc = app.activeDocument;
+	
 	alert('There are no documents open.', 'No Document') 
 	
 } else {
 	
+	const doc = app.activeDocument;
 	var docName = doc.name.slice(0, doc.name.lastIndexOf('.'));
 	
 	// Create and/or setup a folder named after the document
