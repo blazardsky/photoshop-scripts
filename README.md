@@ -15,6 +15,11 @@ Scripts to automate some common processes in photoshop.
 
 Create an action where you start the script (*File > Scripts > Browse* ... Locate and start the file)
 
+OR:
+
+- Edit > Keyboard Shortcuts
+- Under "Application Menu Command" open "File"
+- Search for "Scripts", you should find the name of the script, then click on "add schortcut" button on the right
 
 **BASIC INFORMATIONS:**
 These scripts need a little setup before you can use 'em:
